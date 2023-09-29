@@ -1,0 +1,1183 @@
+@import url('https://fonts.googleapis.com/css2?family=Arimo:ital,wght@0,500;0,600;0,700;1,500;1,600;1,700&family=Montserrat:ital,wght@0,500;1,400;1,500;1,600;1,700&family=Open+Sans:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&family=Playfair+Display:ital,wght@0,700;0,900;1,600;1,700;1,800&display=swap');
+
+.landing_page
+{
+    height: fit-content;
+    width: 100%;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.landing_content
+{
+    height: 100vh;
+    width: 100%;
+    background-image: url(../1.jpeg);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.content
+{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: transparent;
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+}
+
+.flex_container
+{
+    height: fit-content;
+    width: 70%;
+}
+
+.landing_header
+{
+    font-size: 20px;
+    height: fit-content;
+    text-align: center;
+    color: white;
+}
+
+.landing_body
+{
+    font-size: 16px;
+    height: fit-content;
+    width: fit-content;
+    color: white;
+    margin-top: 30px;
+}
+
+.link
+{
+    text-decoration: underline;
+    color: white;
+}
+
+.button
+{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+button
+{
+    padding: 20px 60px 20px 60px;
+    font-size: 14px;
+    border: 1px solid white;
+    background-color: transparent;
+    color: white;
+    border-radius: 10px;
+    font-stretch:semi-expanded;
+    transition: 0.5s;
+    letter-spacing: 2px;
+}
+
+button:hover
+{
+    background-color: white;
+    color: black;
+    letter-spacing: 2px;
+}
+
+.about_page
+{
+    height: fit-content;
+    width: 100%;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.about_content
+{
+    height: 80vh;
+    width: 100%;
+    background-color: #f4dfc5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.flex_container
+{
+    height: fit-content;
+    width: 70%;
+}
+
+.about_header
+{
+    font-size: 40px;
+    height: fit-content;
+    text-align: center;
+    color: black;
+    font-family: 'Playfair Display', serif;
+}
+
+.about_body
+{
+    font-size: 16px;
+    height: fit-content;
+    width: fit-content;
+    color: black;
+    margin-top: 30px;
+    line-height: 2.5;
+}
+
+.link
+{
+    text-decoration: underline;
+    color: white;
+}
+
+.about_button
+{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.button_about
+{
+    padding: 20px 60px 20px 60px;
+    font-size: 14px;
+    border: 1px solid black;
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+    font-stretch:semi-expanded;
+}
+
+.services_page
+{
+    height: fit-content;
+    width: 100%;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.services_content
+{
+    height: fit-content;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 80px;
+   
+}
+
+.holder
+{
+    width: 80%;
+    height: fit-content;
+}
+
+.service_container
+{
+    width: 100%;
+    height: fit-content;
+}
+
+.service_header
+{
+    text-align: center;
+    font-family: 'Playfair Display', serif;
+    font-size: 40px;
+}
+
+.service_body
+{
+    text-align: center;
+    margin-top: 40px;
+}
+
+.box_container
+{
+
+    height: fit-content;
+    width: 100%;
+    display: flex;
+    gap: 60px;
+    margin-top: 40px;
+}
+
+.box1
+{
+    height: 60vh;
+    width: 30%;
+    background-color: #f4dfc5;
+}
+
+.svg_box
+{
+    display: flex;
+    justify-content: center;
+}
+
+.svg_holder8
+{
+    background-image: url(../4.png);
+    height: 10vh;
+    background-repeat: no-repeat;
+    width: 24%;
+    margin-top: 30px;
+    background-color: white;
+    border-radius: 100%;
+    background-size: 50%;
+    background-position: 20px;
+}
+
+.face
+{
+    margin-top: 30px;
+    letter-spacing: 4px;
+    text-align: center;
+}
+
+.face_text
+{
+    margin-top: 30px;
+    font-style: italic;
+    line-height: 2.0;
+    text-align: center;
+}
+
+.find_out
+{
+    margin-top: 30px;
+    text-decoration: underline;
+    letter-spacing: 2px;
+    text-align: center;
+}
+
+.box2
+{
+    height: 60vh;
+    width: 30%;
+    background-color: #f4dfc5;
+}
+
+.svg_box1
+{
+    display: flex;
+    justify-content: center;
+}
+
+.svg_holder1
+{
+    background-image: url(../3.png);
+    height: 10vh;
+    background-repeat: no-repeat;
+    width: 24%;
+    margin-top: 30px;
+    background-color: white;
+    border-radius: 100%;
+    background-size: 50%;
+    background-position: 20px;
+}
+
+.face1
+{
+    margin-top: 30px;
+    letter-spacing: 4px;
+    text-align: center;
+}
+
+.face_text1
+{
+    margin-top: 30px;
+    font-style: italic;
+    line-height: 2.0;
+    text-align: center;
+}
+
+.find_out1
+{
+    margin-top: 30px;
+    text-decoration: underline;
+    letter-spacing: 2px;
+    text-align: center;
+}
+
+.box3
+{
+    height: 60vh;
+    width: 30%;
+    background-color: #f4dfc5;
+}
+
+.svg_box2
+{
+    display: flex;
+    justify-content: center;
+}
+
+.svg_holder2
+{
+    background-image: url(../5.png);
+    height: 10vh;
+    background-repeat: no-repeat;
+    width: 24%;
+    margin-top: 30px;
+    background-color: white;
+    border-radius: 100%;
+    background-size: 50%;
+    background-position: 20px;
+}
+
+.face2
+{
+    margin-top: 30px;
+    letter-spacing: 4px;
+    text-align: center;
+}
+
+.face_text2
+{
+    margin-top: 30px;
+    font-style: italic;
+    line-height: 2.0;
+    text-align: center;
+}
+
+.find_out2
+{
+    margin-top: 30px;
+    text-decoration: underline;
+    letter-spacing: 2px;
+    text-align: center;
+}
+
+
+.box_container1
+{
+    height: fit-content;
+    width: 100%;
+    display: flex;
+    gap: 60px;
+    margin-top: 40px;
+    margin-bottom: 80px;
+}
+
+.box1
+{
+    height: 60vh;
+    width: 30%;
+    background-color: #f4dfc5;
+}
+
+.svg_box
+{
+    display: flex;
+    justify-content: center;
+}
+
+.svg_holder
+{
+    background-image: url(../6.png);
+    height: 10vh;
+    background-repeat: no-repeat;
+    width: 24%;
+    margin-top: 30px;
+    background-color: white;
+    border-radius: 100%;
+    background-size: 50%;
+    background-position: 20px;
+}
+
+.waxing
+{
+    margin-top: 30px;
+    letter-spacing: 4px;
+    text-align: center;
+}
+
+.svg_holder3
+{
+    background-image: url(../7.png);
+    height: 10vh;
+    background-repeat: no-repeat;
+    width: 24%;
+    margin-top: 30px;
+    background-color: white;
+    border-radius: 100%;
+    background-size: 50%;
+    background-position: 20px;
+}
+
+.eyes
+{
+    margin-top: 30px;
+    letter-spacing: 4px;
+    text-align: center;
+}
+
+.svg_holder4
+{
+    background-image: url(../8.png);
+    height: 10vh;
+    background-repeat: no-repeat;
+    width: 24%;
+    margin-top: 30px;
+    background-color: white;
+    border-radius: 100%;
+    background-size: 50%;
+    background-position: 20px;
+}
+
+.tanning
+{
+    margin-top: 30px;
+    letter-spacing: 4px;
+    text-align: center;
+}
+
+.book_page
+{
+    height: fit-content;
+    width: 100%;
+}
+
+.background
+{
+    height: 60vh;
+    width: 100%;
+    background-image: url(../9.jpeg);
+    background-size: cover;
+    background-position: center;
+}
+
+.overlay
+{
+    height: 60vh;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.416);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.book_container
+{
+    height: fit-content;
+    width: fit-content;
+    
+}
+
+.book_header
+{
+    color: white;
+    font-size: 40px;
+    text-align: center;
+}
+
+.body_flex
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.book_body
+{
+    width: 55%;
+    height: fit-content;
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 22px;
+    margin-top: 30px;
+    text-align: center;
+    line-height: 1.8;
+}
+
+.button_flex
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+    gap: 30px;
+}
+
+.button_book1
+{
+    color: white;
+    background-color: #e3b377;
+    border: none;
+    letter-spacing: 2px;
+}
+
+.pdf_page
+{
+    height: fit-content;
+    width: 100%;
+}
+
+.pdf_container
+{
+    height: fit-content;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    background-color: white;  
+}
+
+.backdrop
+{
+    border: 1px solid transparent;
+    height: 65vh;
+    width: 100%;
+    background-color: #f4dfc5;
+}
+
+.pdf_flex
+{
+    width: 77%;
+    height: fit-content;
+    margin: 80px auto;
+}
+
+.pdf_header
+{
+    font-size: 40px;
+    font-family: 'Playfair Display', serif;
+    text-align: center;
+}
+
+.pdf_button
+{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+}
+
+.button_pdf
+{
+    background-color: black;
+    letter-spacing: 2px;
+}
+
+.flex_images
+{
+    width: 100%;
+    height: fit-content;
+    margin-top: 40px;
+    display: flex;
+    gap: 40px;
+}
+
+.flex_image1
+{
+    height: 45vh;
+    width: 25%;
+    background-image: url(../10.jpeg);
+    background-size: cover;
+}
+
+.flex_image2
+{
+    height: 45vh;
+    width: 25%;
+    background-image: url(../11.jpeg);
+    background-size: cover;
+    margin-top: 100px;
+}
+
+.flex_image3
+{
+    height: 45vh;
+    width: 25%;
+    background-image: url(../12.jpeg);
+    background-size: cover;
+}
+
+.flex_image4
+{
+    height: 45vh;
+    width: 25%;
+    background-image: url(../13.jpeg);
+    background-size: cover;
+    margin-top: 100px;
+}
+
+.red
+{
+    background-color: white;
+    height: 18vh;
+}
+
+.blue
+{
+    background-color: #f4dfc5;
+    height: 60vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.freepik
+{
+    font-family: 'Arimo', sans-serif;
+}
+
+.ref
+{
+    text-decoration: underline;
+}
+
+.beauty_page
+{
+    height: fit-content;
+    width: 100%;
+}
+
+.beauty_content
+{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f4dfc5;
+}
+
+.beauty_flex
+{
+    height: fit-content;
+    width: 70%;
+}
+
+.beauty_header
+{
+    height: fit-content;
+    text-align: center;
+    font-size: 40px;
+}
+
+.beauty_body
+{
+    height: fit-content;
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+    margin-top: 40px;
+    font-size: 20px;
+}
+
+.input_flex
+{
+    width: 100%;
+    height: 10vh;
+    margin-top: 40px;
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    align-items: center;
+}
+
+input
+{
+    height: 50px;
+    width: 100%; 
+    font-size: 20px; 
+    padding: 22px 30px;
+    border-radius: 8px;
+    border: none;
+    font-size: 16px;
+}
+
+.beauty_button
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.button_beauty
+{
+    background-color: black;
+    border: none;
+    width: 55%;
+}
+
+.what_we_do_page
+{
+    height: fit-content;
+    width: 100%;
+}
+
+.what_content
+{
+    height: 140vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.what_flex
+{
+    height: fit-content;
+    width: 80%;
+    display: flex;
+}
+
+.left_container
+{
+    width: 50%;
+    height: fit-content;
+}
+
+.left_width
+{
+    width: 90%;
+    height: 80vh;
+    background-image: url(../19.jpeg);
+    background-size: cover;
+}
+
+.left_text_box
+{
+    width: 90%;
+    height: fit-content;
+    margin-top: 40px;
+}
+
+.left_header
+{
+    font-size: 40px;
+}
+
+.left_body
+{
+    font-size: 40px;
+    font-size: 18px;
+    font-family: 'Open Sans', sans-serif;
+    margin-top: 20px;
+}
+
+.right_container
+{
+    width: 50%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items:end;
+}
+
+.right_height
+{
+    width: 100%;
+    height: 85vh;
+}
+
+.right_flex
+{
+    height: 40vh;
+    width: 100%;
+    display: flex;
+    gap: 50px;
+}
+
+.left_right
+{
+    background-image: url(../20.jpeg);
+    height: 40vh;
+    width: 50%;
+    background-size: cover;
+}
+
+.right_right
+{
+    background-image: url(../15.jpeg);
+    height: 40vh;
+    width: 50%;
+    background-size: cover;
+    background-position: center;
+}
+
+.right_bottom
+{
+    height: 40vh;
+    width: 100%;
+}
+
+.right_bottom_width
+{
+    height: 40vh;
+    width: 80%;
+    margin-top: 40px;
+    background-image: url(../16.jpeg);
+    background-size: cover;
+}
+
+.third-part{
+    width: 100%;
+    height: fit-content;
+    background-color: #F4DFC5;
+}
+
+
+.flex-container{
+    width: 90%;
+    height: fit-content;
+    margin: 30px auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.image-text-holder{
+    width: 40%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+
+.image-text-holder > h2{
+    font-size: 30px;
+    margin: 30px;
+    font-weight: 300;
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+.image-text-holder > p{
+    font-size: 20px;
+    margin: 30px;
+    line-height: 40px;
+    font-family: 'Arimo', sans-serif;
+}
+
+
+.flex{
+    width: 59%;
+    height: 100vh;
+}
+
+
+.container{
+    width: 90%;
+    height: 100vh;
+    margin: 0px auto;
+    display: flex;
+    position: relative;
+}
+
+
+.contain{
+    width: 40%;
+    height: 103.5vh;
+    background-color: #ffffff;
+}
+
+
+.contains{
+    width: 90%;
+    height: 79vh;
+    top: 80px;
+    position: absolute;
+    left: 90px;
+    background-image:url(../22.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+.fourth
+{
+    width: 100%;
+    height: fit-content;
+}
+
+
+.text-format{
+    width: 100%;
+    height: 35vh;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.display-container{
+    width: 90%;
+    height: fit-content;
+    margin: 0px auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.display{
+    width: 30%;
+    height: fit-content;
+}
+
+
+.text-area{
+    width: 80%;
+    height: fit-content;
+    margin: 0px auto;
+}
+
+
+.text-area > h6{
+    color: #ffffff;
+    font-family: 'Playfair Display', serif;
+    margin: 40px auto;
+    font-size: 15px;
+}
+
+
+.text-area > p{
+    color: #ffffff;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 15px;
+}
+
+
+
+/* Media Query for Mobile Devices */
+@media (max-width: 425px) {
+    .landing_content {
+        height: 20vh;
+    }
+
+    .content
+    {
+        width: 100%;
+        height: 20vh;
+    }
+
+    .flex_container {
+        width: 100%;
+        height: 20vh;
+    }
+
+    .landing_header {
+        font-size: 16px;
+    }
+
+    .landing_body {
+        font-size: 14px;
+        margin-top: 20px;
+    }
+
+    button {
+        padding: 15px 40px;
+        font-size: 12px;
+    }
+
+    .about_content
+    {
+        height: 100vh;
+    }
+
+    .flex_container
+    {
+        height: fit-content;
+    }
+
+    .services_page
+    {
+        height: fit-content;
+    }
+
+    .services_content
+    {
+        height: fit-content;
+    }
+
+    .holder 
+    {
+        width: 100%;
+        height: fit-content;
+    }
+    .service_header 
+    {
+        font-size: 24px;
+        height: fit-content;
+    }
+    .service_body 
+    {
+        font-size: 14px;
+        margin-top: 10px;
+        height: fit-content;
+    }
+    .box1, .box2, .box3 
+    {
+        width: 100%;
+        height: 50vh;
+    }
+    .svg_holder, .svg_holder1, .svg_holder2, .svg_holder3, .svg_holder4, .svg_holder8 
+    {
+        width: 25%;
+        height: 10vh;
+    }
+
+    .face, .face1, .face2 
+    {
+        letter-spacing: 2px;
+    }
+
+    .face_text, .face_text1, .face_text2 
+    {
+        font-style: normal;
+        line-height: 1.5;
+    }
+    
+    .find_out, .find_out1, .find_out2 
+    {
+        letter-spacing: 1px;
+    }
+
+    .book_page
+    {
+        height: 100vh;
+    }
+
+    .background
+    {
+        height: 100vh;
+    }
+
+    .overlay
+    {
+        height: 100vh;
+    }
+
+    .book_container
+    {
+        height: 100vh;
+    }
+
+    .pdf_header
+    {
+        font-size: 24px;
+    }
+
+    .flex_image1, .flex_image2, .flex_image3, .flex_image4
+    {
+        width: 80%;
+        height: 20vh;
+    }
+
+    .what_we_do_page
+    {
+        height: fit-content;
+    }
+
+    .what_content
+    {
+        height: fit-content;
+    }
+    
+    .what_flex
+    {
+        height: fit-content;
+    }
+
+    .left_container
+    {
+        height: fit-content;
+    }
+
+    .left_width
+    {
+        border: 1px solid red;
+        height: 30vh;
+    }
+    
+    .right_height
+    {
+        height: 80vh;
+    }
+
+}
+
+/* Media Query for Mobile Devices */
+@media (max-width: 480px) {
+    .holder {
+        width: 100%;
+    }
+    .service_header {
+        font-size: 24px;
+    }
+    .service_body {
+        font-size: 14px;
+        margin-top: 10px;
+    }
+    .box1, .box2, .box3 {
+        width: 100%;
+        height: 50vh;
+        
+    }
+    .svg_holder, .svg_holder1, .svg_holder2, .svg_holder3, .svg_holder4, .svg_holder8 {
+        width: 20%;
+        height: 10vh;
+    }
+    .face, .face1, .face2 {
+        letter-spacing: 2px;
+    }
+    .face_text, .face_text1, .face_text2 {
+        font-style: normal;
+        line-height: 1.5;
+    }
+    .find_out, .find_out1, .find_out2 {
+        letter-spacing: 1px;
+    }
+}
+
+/* Media Query for Tablets */
+@media (max-width: 768px) {
+    .landing_content {
+        height: 60vh;
+    }
+
+    .content
+    {
+        width: 100%;
+        height: 60vh;
+    }
+
+    .flex_container {
+        width: 90%;
+    }
+
+    .holder {
+        width: 90%;
+    }
+    .service_header {
+        font-size: 30px;
+        
+    }
+    .service_body {
+        font-size: 16px;
+        margin-top: 20px;
+    }
+    .box_container, .box_container1 {
+        flex-direction: column;
+        align-items: center;
+        gap: 30px;
+    }
+    .box1, .box2, .box3 {
+        width: 80%;
+        height: 50vh;
+    }
+    .svg_holder, .svg_holder1, .svg_holder2, .svg_holder3, .svg_holder4, .svg_holder8 {
+        width: 15%;
+        height: 10vh;
+        
+    }
+}
+
