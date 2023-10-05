@@ -1,0 +1,132 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@media (max-width:768px ){
+
+
+    a {
+        font-size: 22px;
+    }
+
+    .bottom-left {
+        width: 50%;
+        bottom: 72px;
+        left: 27px;
+    }
+
+
+    .bottom-right {
+        left: 405px;
+    }
+
+    .bottom-right h1 {
+        font-size: 63px;
+    }
+
+    .bottom-right p {
+        font-size: 15px;
+    }
+
+
+    .bottom-right button {
+        font-size: 15px;
+        margin-top: 24px;
+    }
+
+    .text-path h1 {
+        font-size: 56px;
+    }
+
+    .text-path p {
+        font-size: 19px;
+    }
+
+    .cards {
+        width: 47%;
+    }
+
+    .cards h1 {
+        font-size: 36px;
+    }
+
+    .cards p {
+        margin-bottom: 20px;
+    }
+
+    .gallery-text {
+        font-size: 40px;
+    }
+
+    .image-box {
+        width: 48%;
+    }
+
+    .tips-text h1 {
+        font-size: 34px;
+        margin-bottom: 20px;
+    }
+
+    .tips-text p {
+        font-size: 18px;
+    }
+    
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    .image-board {
+        left: 387px;
+    }
+}
+
+
+
+
+@media (max-width:425px ){
+
+    a {
+        font-size: 14px;
+    }
+
+    .bottom-right {
+        left: 232px;
+    }
+
+    .bottom-right h1 {
+        font-size: 28px;
+    }
+
+
+    .cards h1 {
+        font-size: 22px;
+    }
+
+
+
+    .bottom-right h1 {
+        font-size: 30px;
+    }
+
+
+
+    .image-board {
+        left: 205px;
+    }
+}
