@@ -1,0 +1,594 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Arimo:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&family=Montserrat:ital,wght@0,100;0,200;0,300;0,500;0,600;0,700;0,800;1,100;1,200;1,400;1,500;1,600;1,700&family=Open+Sans:ital,wght@0,300;0,400;1,300;1,400&family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;1,400;1,500;1,600;1,700;1,800&family=Roboto+Serif:ital,opsz,wght@0,8..144,100;0,8..144,200;0,8..144,300;0,8..144,400;1,8..144,100;1,8..144,200;1,8..144,300&family=Roboto:ital,wght@0,100;0,300;0,400;1,100;1,300;1,400&display=swap');
+
+
+
+  /*font-family: 'Arimo', sans-serif;
+font-family: 'Montserrat', sans-serif;
+font-family: 'Open Sans', sans-serif;
+font-family: 'Playfair Display', serif;
+font-family: 'PT Serif', serif;
+font-family: 'Roboto', sans-serif;
+font-family: 'Roboto Serif', serif;*/
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.hero-section{
+    width: 100%;
+    height: 150vh;
+    /* border: 1px solid black; */
+    position: relative;
+}
+
+.empty{
+    width: 100%;
+    height: 60vh;
+    background-color: #F4DFC5;
+}
+
+
+.card-container{
+    width: 89%;
+    height: 70vh;
+    /* border: 1px solid black; */
+    position: absolute;
+    top: 55px;
+    left: 70px;
+    display: flex;
+}
+
+.cards{
+    width: 59%;
+    height: fit-content;
+    /* border: 1px solid red; */
+    position: absolute;
+    left: 41%;
+    background-color: white;
+}
+
+
+.text-holder{
+    width: 70%;
+    height: 90vh;
+    /* border: 1px solid black; */
+    margin: 0px auto;
+}
+
+.text-holder > h2{
+    text-align: center;
+    margin-top: 70px;
+    font-family: 'Playfair Display', serif;
+    font-size: 60px;
+    margin-left: 70px;
+}
+
+
+.text-holder > p{
+    text-align: center;
+    margin-top: 70px;
+    font-size: 20px;
+    font-family: 'Arimo', sans-serif;
+    line-height: 40px;
+    margin-left: 70px;
+}
+
+
+.main{
+    width: 60%;
+    height: 50px;
+    text-align: center;
+    margin-top: 70px;
+    font-size: 20px;
+    font-family: 'Arimo', sans-serif;
+    line-height: 40px;
+    margin-left: 80px;
+    background-color: black;
+    border-radius: 10px;
+}
+
+
+.main > p{
+    color: #ffffff;
+    font-family: 'PT Serif', serif;
+    font-size: 15px;
+}
+
+
+.card{
+    width: 55%;
+    height: 120vh;
+    /* border: 1px solid blue; */
+    position: relative;
+    top: 80px;
+    background-image: url(./56677.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: 10;
+}
+
+
+.second-part{
+    width: 100%;
+    height: 100vh;
+    border: 1px solid white;
+    background-color: #F4DFC5;
+    position: relative;
+}
+
+
+.second-part > h2{
+    text-align: center;
+    font-family: 'Playfair Display', serif;
+    font-size: 60px;
+    margin: 30px auto;
+}
+
+
+.second-part > p{
+    text-align: center;
+    font-family: 'Arimo', sans-serif;
+    line-height: 50px;
+    font-size: 20px;
+    margin: 20px auto;
+}
+
+
+.text-part > h5{
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 30px;
+    margin: 20px auto;
+}
+
+
+.text-part > p{
+    text-align: center;
+    font-family: 'Arimo', sans-serif;
+    font-size: 18px;
+    font-weight: 900;
+    margin: 0px auto;
+}
+
+
+.text-part > h6{
+    text-align: center;
+    font-family: 'Arimo', sans-serif;
+    font-size: 18px;
+    font-weight: 100;
+    margin: 13px auto;
+}
+
+
+
+.content{
+    width: 16%;
+    height: 50px;
+    text-align: center;
+    background-color: black;
+    border-radius: 10px;
+    position: absolute;
+    left: 42%;
+    bottom: 40px;
+}
+
+
+.content> p{
+    color: #ffffff;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 15px;
+}
+
+
+.third-part{
+    width: 100%;
+    height: 110vh;
+    border: 1px solid #F4DFC5;
+    background-color: #F4DFC5;
+}
+
+
+.flex-container{
+    width: 90%;
+    height: 100vh;
+    /* border: 1px solid blue; */
+    margin: 30px auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.image-text-holder{
+    width: 40%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    /* border: 1px solid red ; */
+}
+
+
+.image-text-holder > h2{
+    font-size: 30px;
+    margin: 30px;
+    font-weight: 300;
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+.image-text-holder > p{
+    font-size: 20px;
+    margin: 20px;
+    line-height: 40px;
+    font-family: 'Arimo', sans-serif;
+}
+
+
+.flex{
+    width: 59%;
+    height: 100vh;
+    /* border: 1px solid black; */
+}
+
+
+.container{
+    width: 90%;
+    height: 100vh;
+    /* border: 1px solid black; */
+    margin: 0px auto;
+    display: flex;
+    position: relative;
+}
+
+
+.contain{
+    width: 40%;
+    height: 105vh;
+    /* border: 1px solid black; */
+    background-color: #ffffff;
+}
+
+
+.contains{
+    width: 90%;
+    height: 79vh;
+    top: 80px;
+    /* border: 1px solid black; */
+    position: absolute;
+    /* left: 40px; */
+    /* background-color: black; */
+    left: 90px;
+    background-image: url(./sfrt-min.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+
+.fourth{
+    width: 100%;
+    height: 40vh;
+    /* border: 1px solid black; */
+}
+
+
+.text-format{
+    width: 100%;
+    height: 40vh;
+    background-color: black;
+}
+
+
+.display-container{
+    width: 90%;
+    /* height: 80vh; */
+    /* border: 1px solid white; */
+    margin: 0px auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.display{
+    width: 30%;
+    height: 40vh;
+    /* border: 1px solid white; */
+}
+
+
+.text-area{
+    width: 80%;
+    height: 40vh;
+    /* border: 1px solid white; */
+    margin: 0px auto;
+}
+
+
+.text-area > h6{
+    color: #ffffff;
+    font-family: 'Playfair Display', serif;
+    margin: 40px auto;
+    font-size: 15px;
+}
+
+
+.text-area > p{
+    color: #ffffff;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 15px;
+}
+
+.hero{
+    width: 100%;
+    height: 20vh;
+    background-color: #333333;
+}
+
+
+@media (max-width:1054px){
+    .image-text-holder{
+        width: 35%;
+    }
+
+    
+    
+    .flex{
+        width: 62%;
+    }
+    
+    
+    .contains{
+        background-position: center;
+    } 
+}
+
+
+@media (max-width:780px){
+
+
+    .text-holder > h2{
+        margin-top: 60px;
+    }
+    
+    
+    .text-holder > p{
+        height: 30vh;
+        font-size: 15px;
+        margin-left: 70px;
+        line-height: 30px;
+    }
+    
+    
+    .main{
+        /* margin-left: 80px; */
+        background-color: black;
+        border-radius: 10px;
+        width: 60%;
+    }
+    
+    
+    .second-part{
+        height: 110vh;
+    }
+    
+    .second-part > h2{
+        font-size: 45px;
+        margin: 30px auto;
+    }
+    
+    
+    .second-part > p{
+        line-height: 35px;
+        font-size: 18px;
+    }
+    
+    
+    .text-part > h5{
+        text-align: center;
+        font-family: 'Montserrat', sans-serif;
+        font-size: 30px;
+        margin: 20px auto;
+    }
+    
+    
+    .text-part > p{
+        font-size: 15px;
+    }
+    
+    
+    .text-part > h6{
+        text-align: center;
+        font-family: 'Arimo', sans-serif;
+        font-size: 18px;
+        font-weight: 100;
+        margin: 13px auto;
+    }
+    
+    
+    
+    .content{
+        width: 16%;
+        height: 50px;
+        text-align: center;
+        background-color: black;
+        border-radius: 10px;
+        position: absolute;
+        left: 42%;
+        bottom: 40px;
+    }
+    
+    
+    .content> p{
+        color: #ffffff;
+        font-family: 'Open Sans', sans-serif;
+        font-size: 15px;
+    }
+    
+    
+    .contain{
+        height: 104vh;
+    }
+    
+    
+    .contains{
+        width: 94%;
+        left: 55px;
+        background-position: center;
+    }
+}
+
+
+@media (max-width:450px){
+    .hero-section{
+        width: 90%;
+        height: 110vh;
+    }
+
+    .empty{
+        width: 122%;
+    }
+    
+    .card-container{
+        left: 40px;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+    
+    .cards{
+        width: 80%;
+        left: 35%;
+    }
+    
+    
+    .text-holder{
+        width: 70%;
+        height: fit-content;
+        /* border: 1px solid black; */
+    }
+    
+    .text-holder > h2{
+        margin-top: 40px;
+        font-size: 40px;
+        margin-left: 50px;
+    }
+    
+    
+    .text-holder > p{
+        margin-top: 15px;
+        font-size: 15px;
+        line-height: 25px;
+        height: 30vh;
+        width: 90%;
+        margin-left: 40px;
+        text-align: center;
+    }
+    
+    
+    .main{
+        width: 80%;
+        font-family: 'Arimo', sans-serif;
+        line-height: 40px;
+        margin-left: 48px;
+    }
+    
+    
+    .main > p{
+        font-size: 12px;
+    }
+    
+    
+    
+    .second-part{
+        width: 110%;
+        height: 120vh;
+    }
+    
+    
+    .second-part > h2{
+        font-size: 30px;
+    }
+    
+    
+    .second-part > p{
+        line-height: 35px;
+        font-size: 15px;
+        margin: 20px auto;
+        width: 80%;
+    }
+    
+    
+    
+    
+    .content{
+        width: 25%;
+        left: 39%;
+    }
+    
+    
+    .content> p{
+        font-size: 12px;
+    }
+    
+    
+    .third-part{
+        width: 110%;
+        height: 113vh;
+    }
+    
+    
+    .image-text-holder > h2{
+        font-size: 25px;
+        margin: 20px auto;
+    }
+    
+    
+    .image-text-holder > p{
+        font-size: 20px;
+        margin: 10px auto;
+        line-height: 40px;
+    }
+    
+    
+    
+    .contain{
+        width: 60%;
+        height: 107vh;
+        /* border: 1px solid black; */
+        background-color: #ffffff;
+    }
+    
+    
+    .contains{
+        width: 100%;
+        left: 40px;
+        background-position: center;
+    }
+    
+    
+    
+    .fourth{
+        width: 110%;
+    }
+    
+     
+    .text-area > h6{
+        margin: 30px auto;
+    }
+    
+    
+    .text-area > p{
+        font-size: 12px;
+    }
+    
+    .hero{
+        width: 100%;
+        height: 20vh;
+        background-color: #333333;
+    }
+}
